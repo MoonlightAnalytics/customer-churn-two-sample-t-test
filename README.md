@@ -1,30 +1,18 @@
 # Customer Churn Two-Sample t-Test Analysis
 
 ## Overview
-This project investigates whether there is a statistically significant difference in monthly charges between customers who churned and customers who remained with the company.
-
-An independent two-sample t-test was performed using Python to determine whether the average monthly charges differ between the two groups.
-
----
+This project investigates whether customers who churn have significantly different monthly charges than customers who remain with the company. An independent two-sample t-test was performed using Python to evaluate the difference in average monthly charges between the two groups.
 
 ## Business Question
+Do churned customers pay significantly different monthly charges than retained customers?
 
-Do customers who churn pay significantly different monthly charges than customers who stay?
+## Dataset
+- Customer Churn Dataset
+- Features used:
+  - Churn
+  - MonthlyCharges
 
----
-
-## Objectives
-
-- Clean and prepare customer churn data
-- Explore monthly charge distributions
-- Perform an independent two-sample t-test
-- Interpret the statistical results
-- Draw business conclusions based on the findings
-
----
-
-## Tools & Technologies
-
+## Tools
 - Python
 - Pandas
 - NumPy
@@ -32,50 +20,10 @@ Do customers who churn pay significantly different monthly charges than customer
 - Matplotlib
 - Jupyter Notebook
 
----
-
 ## Statistical Method
-
 - Independent Two-Sample t-Test
-- Significance Level (α): 0.05
-
----
+- α = 0.05
 
 ## Results
+*Summarize your findings here.*
 
-The analysis found a statistically significant difference in average monthly charges between customers who churned and customers who remained.
-
-*(Replace this section with your actual findings.)*
-
----
-
-## Repository Structure
-
-```
-Customer-Churn-Two-Sample-TTest/
-│
-├── README.md
-├── Customer_Churn_T_Test_Report.pdf
-├── Customer_Churn_T_Test.ipynb
-├── data/
-│   └── churn_clean.csv
-└── images/
-    └── boxplot.png
-```
-
----
-
-## Key Skills Demonstrated
-
-- Data Cleaning
-- Exploratory Data Analysis
-- Hypothesis Testing
-- Statistical Inference
-- Python Data Analysis
-- Business Analytics
-
----
-
-## Author
-
-Nam Nguyen
