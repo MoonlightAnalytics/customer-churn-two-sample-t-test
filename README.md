@@ -53,4 +53,5 @@ These actions could help the company better understand why high-paying customers
 
 - [View the Jupyter Notebook](customer_churn_t_test_analysis.ipynb)
 - [View the Full Written Report](Customer_Churn_Two_Sample_T_Test_Report.pdf)
+- [View the data in csv format](churn_clean.csv)
 
