@@ -26,7 +26,7 @@ Do churned customers pay significantly different monthly charges than retained c
 
 ## Results
 
-##Conclusion:
+## Conclusion:
 I tested where customers who churn have higher monthly charges than those who stay using a right-tailed two sample t-test (similar variance, significance level = 0.05)
 The null hypothesis is that churners do not pay more than non-churners
 The alt hypothesis is that churners do pay more than non-churners. 
@@ -35,7 +35,7 @@ The test produced a t-statistic of approximately 39.28, and a p-value close to 0
  White the dataset for “MonthlyCharge” is large and satisfies Central Limit Theorem, it is not truly a random sample. This may limit how the results can be generalized. Additionally, the t-test assumes homogeneity of variance, which can only be approximated. Though calculating the variance it comes close to 1 to 1. The variance ratio was 0.9. 
 T-test also only shows association and not truly the real cause of churn, it shows just one aspect of the concern. Other factors such as service issues like equipment failure and outages, location, contract type, better service from other competitors could be a factor of churn.
 
-##Recommendations:
+## Recommendations:
 Based on the findings, the company should consider strategies to reduce churn among high-paying customers. These may include offering discounts, promotions, or loyalty programs targeted at customers with higher monthly charges. Additionally, encouraging customers to adopt longer term contracts could reduce churn rates, as churn was far lower for two year contract customers as visualized in one of the categorical bivariate graphs. 
 
 
